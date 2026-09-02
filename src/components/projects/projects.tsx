@@ -17,6 +17,9 @@ export default function Projects() {
                     <ProjectCard title="FoodSaver" img="/projects/foodSaver.png" link="https://github.com/ToMaTo1206/symplynote-screen">
                         Site web anti-gaspillage permettant de gérer son inventaire alimentaire et d'être alerté des aliments arrivant à expiration.
                     </ProjectCard>
+                    <ProjectCard title="KanjiMori" img="/projects/kanjimori.png" link="https://github.com/ToMaTo1206/kanji-mori">
+                        Application de révision des kanji japonais
+                    </ProjectCard>
                 </div>
             </div>
 
