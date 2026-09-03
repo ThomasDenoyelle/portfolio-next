@@ -22,7 +22,7 @@ export default function Hero(){
                 <div className="px-10">
                     <h1 className="text-5xl max-sm:text-4xl text-center font-poppins font-black">Thomas Denoyelle</h1>
                     <p className="pt-10 font-nunito text-xl">
-                        J'ai 20 ans et je suis passioné par le développement web. Je poursuis actuellement un BUT Informatique à l'IUT de Reims.
+                        J'ai 20 ans et je suis passioné par le développement web. Je poursuis actuellement ma 3ème année de BUT Informatique à l'IUT de Reims.
                     </p>
                     <p className="pt-6 font-nunito text-xl">
                         En dehors de l'informatique, je passe une partie de mon temps à faire du sport comme de la course à pied, du vélo et plein d'autres choses encore ...

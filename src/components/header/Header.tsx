@@ -1,5 +1,5 @@
 import Image from "next/image"
-import {faContactCard, faCubes, faDiagramProject, faHouseUser, faRoute} from "@fortawesome/free-solid-svg-icons"
+import {faContactCard, faCubes, faDiagramProject, faRoute} from "@fortawesome/free-solid-svg-icons"
 import NavLinkIcon from "@/components/header/NavLinkIcon";
 import NavLink from "@/components/header/NavLink";
 

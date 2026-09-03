@@ -20,7 +20,7 @@ export default function Projects() {
                     <ProjectCard title="KanjiMori" img="/projects/kanjimori.png" link="https://github.com/ThomasDenoyelle/KanjiMori">
                         Application de révision des kanji japonais
                     </ProjectCard>
-                    <ProjectCard title="KanjiMori Mobile" img="" link="https://github.com/ThomasDenoyelle/kanjimori_mobile">
+                    <ProjectCard title="KanjiMori Mobile" img="/projects/kanjimori_mobile.png" link="https://github.com/ThomasDenoyelle/kanjimori_mobile">
                         Application mobile de révision des kanji japonais
                     </ProjectCard>
                 </div>
