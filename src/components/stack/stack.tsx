@@ -24,12 +24,12 @@ export default function Stack() {
                         Front-End
                     </h1>
                     <div className="flex flex-wrap gap-2 py-3">
-                        <StackCard faIcon={faHtml5}>Html</StackCard>
-                        <StackCard faIcon={faCss3}>Css</StackCard>
-                        <StackCard faIcon={faJs}>Javascript</StackCard>
-                        <StackCard faIcon={faReact}>React</StackCard>
-                        <StackCard faIcon={faBootstrap}>Bootstrap</StackCard>
-                        <StackCard faIcon={faTailwindCss}>Tailwind</StackCard>
+                        <StackCard faIcon={faHtml5} delay={100}>Html</StackCard>
+                        <StackCard faIcon={faCss3} delay={200}>Css</StackCard>
+                        <StackCard faIcon={faJs} delay={300}>Javascript</StackCard>
+                        <StackCard faIcon={faReact} delay={400}>React</StackCard>
+                        <StackCard faIcon={faBootstrap} delay={500}>Bootstrap</StackCard>
+                        <StackCard faIcon={faTailwindCss} delay={600}>Tailwind</StackCard>
                     </div>
                 </div>
                 <div className="card bg-base-100/70 shadow-2xl flex grow ps-5 rounded-md py-5 pb-10">
@@ -37,9 +37,9 @@ export default function Stack() {
                         Back-End
                     </h1>
                     <div className="flex flex-wrap gap-2 py-3">
-                        <StackCard faIcon={faPhp}>PHP</StackCard>
-                        <StackCard faIcon={faSymfony}>Symfony</StackCard>
-                        <StackCard faIcon={faNodeJs}>NodeJs</StackCard>
+                        <StackCard faIcon={faPhp} delay={200}>PHP</StackCard>
+                        <StackCard faIcon={faSymfony} delay={400}>Symfony</StackCard>
+                        <StackCard faIcon={faNodeJs} delay={600}>NodeJs</StackCard>
                     </div>
                 </div>
             </div>
@@ -49,12 +49,12 @@ export default function Stack() {
                         Outils
                     </h1>
                     <div className="flex flex-wrap gap-2 py-3">
-                        <StackCard faIcon={faDocker}>Docker</StackCard>
-                        <StackCard faIcon={faGithub}>Github</StackCard>
-                        <StackCard faIcon={faGitlab}>GitLab</StackCard>
-                        <StackCard faIcon={faLinux}>Linux</StackCard>
-                        <StackCard faIcon={faCode}>VsCode</StackCard>
-                        <StackCard faIcon={faTerminal}>PhpStorm</StackCard>
+                        <StackCard faIcon={faDocker} delay={100}>Docker</StackCard>
+                        <StackCard faIcon={faGithub} delay={200}>Github</StackCard>
+                        <StackCard faIcon={faGitlab} delay={300}>GitLab</StackCard>
+                        <StackCard faIcon={faLinux} delay={400}>Linux</StackCard>
+                        <StackCard faIcon={faCode} delay={500}>VsCode</StackCard>
+                        <StackCard faIcon={faTerminal} delay={600}>PhpStorm</StackCard>
                     </div>
                 </div>
                 <div className="card bg-base-100/70 shadow-2xl flex grow ps-5 rounded-md py-5 pb-10">
@@ -62,8 +62,8 @@ export default function Stack() {
                         Base de données
                     </h1>
                     <div className="flex flex-wrap gap-2 py-3">
-                        <StackCard faIcon={faDatabase}>MySQL / PostgreSQL</StackCard>
-                        <StackCard faIcon={faCube}>Doctrine</StackCard>
+                        <StackCard faIcon={faDatabase} delay={200}>MySQL / PostgreSQL</StackCard>
+                        <StackCard faIcon={faCube} delay={600}>Doctrine</StackCard>
                     </div>
                 </div>
             </div>
