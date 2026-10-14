@@ -4,7 +4,7 @@ export default function Projects() {
     return (
         <div className="flex flex-col min-h-screen justify-center items-center w-full px-10 pb-14 scroll-mt-24" id={"projets"}>
             <div className="divider pb-10">
-                <p className="text-4xl font-bold text-wrap max-sm:text-center">
+                <p className="text-4xl font-bold text-wrap text-center">
                     Projets Personnels
                 </p>
             </div>
@@ -28,7 +28,7 @@ export default function Projects() {
 
 
             <div className="divider py-10">
-                <p className="text-4xl font-bold text-wrap max-sm:text-center">
+                <p className="text-4xl font-bold text-wrap text-center">
                     Projets Universitaires
                 </p>
             </div>
