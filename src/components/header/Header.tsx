@@ -9,7 +9,7 @@ import NavLink from "@/components/header/NavLink";
 export default function Header() {
     return (
         <header className="navbar bg-secondary/85 backdrop-blur-md z-50 shadow-xl md:px-12 sticky top-0">
-            <div className="navbar-start">
+            <div className="navbar-start w-auto flex-none">
                 <a href="#presentation" className="hover:opacity-80 transition-opacity">
                     <Image
                         src="/profil/td_logo.svg"
@@ -19,8 +19,8 @@ export default function Header() {
                     />
                 </a>
             </div>
-            <div className="navbar-end">
-                <ul className="menu menu-horizontal flex md:hidden">
+            <div className="navbar-end flex-1">
+                <ul className="menu menu-horizontal flex flex-nowrap md:hidden">
                     <NavLinkIcon href={"#parcours"} tooltip={"Parcours"} faIcon={faRoute} />
                     <NavLinkIcon href={"#projets"} tooltip={"Projets"} faIcon={faDiagramProject} />
                     <NavLinkIcon href={"#stack"} tooltip={"Stack technique"} faIcon={faCubes} />
