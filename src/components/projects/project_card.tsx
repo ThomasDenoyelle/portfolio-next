@@ -1,16 +1,45 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 
 type ProjectsProps = {
     title: string;
     img: string;
     link: string;
     children?: React.ReactNode;
+    delay?: number; 
 }
 
-export default function ProjectCard({title, img, link, children}: ProjectsProps) {
+export default function ProjectCard({title, img, link, delay = 0, children}: ProjectsProps) {
+    const ref = useRef<HTMLDivElement>(null)
+    const [visible, setVisible] = useState(false)
+
+    useEffect(() => {
+        const el = ref.current
+        if (!el) return
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setVisible(true)
+                    observer.disconnect()
+                }
+            },
+            { threshold: 0.15 }
+        )
+
+        observer.observe(el)
+        return () => observer.disconnect()
+    }, [])
+
     return (
-        <div className="card shadow-lg rounded-lg bg-base-100/60 overflow-hidden">
+        <div ref={ref}
+            style={{ transitionDelay: `${delay}ms` }}
+            className={`card h-full shadow-lg rounded-lg bg-base-100/60 overflow-hidden transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-x-0 ${
+                visible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-16"
+            }`}>
             <div className="card-body p-6">
                 <h1 className="card-title font-poppins text-3xl">
                     {title}
