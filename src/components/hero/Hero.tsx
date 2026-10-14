@@ -17,9 +17,9 @@ export default function Hero(){
                     height={500}
                     priority
                     alt="Picture of the author"
-                    className="max-w-sm rounded-lg"
+                    className="w-48 sm:w-64 lg:w-80 xl:max-w-sm h-auto rounded-lg"
                 />
-                <div className="px-10">
+                <div className="px-2 sm:px-10">
                     <h1 className="text-5xl max-sm:text-4xl text-center font-poppins font-black">Thomas Denoyelle</h1>
                     <p className="pt-10 font-nunito text-xl">
                         J'ai 20 ans et je suis passioné par le développement web. Je poursuis actuellement ma 3ème année de BUT Informatique à l'IUT de Reims.
