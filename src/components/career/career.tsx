@@ -8,7 +8,7 @@ export default function Career(){
                         <div aria-label="info" className="status status-primary status-xl"></div>
                     </div>
                     <div className="timeline-start timeline-box text-center">
-                        <h1 className="text-xl font-poppins font-bold py-2">Baccalauréat Général</h1>
+                        <h1 className="sm:text-xl text-lg font-poppins font-bold py-2">Baccalauréat Général</h1>
                         <p className="text-base py-1">Lycée Léonard de Vinci - Soissons</p>
                     </div>
                     <hr className="bg-gray-600"/>
@@ -20,7 +20,7 @@ export default function Career(){
                         <div aria-label="info" className="status status-primary status-xl"></div>
                     </div>
                     <div className="timeline-end timeline-box text-center">
-                        <h1 className="text-xl font-poppins font-bold py-2">BUT Informatique</h1>
+                        <h1 className="sm:text-xl text-lg font-poppins font-bold py-2">BUT Informatique</h1>
                         <p className="text-base py-1">IUT RCC - Reims</p>
                     </div>
                     <hr className="bg-gray-600"/>
@@ -32,7 +32,7 @@ export default function Career(){
                         <div aria-label="info" className="status status-primary status-xl"></div>
                     </div>
                     <div className="timeline-start timeline-box text-center">
-                        <h1 className="text-xl font-poppins font-bold py-2">Agent Pépiniériste</h1>
+                        <h1 className="sm:text-xl text-lg font-poppins font-bold py-2">Agent Pépiniériste</h1>
                         <p className="text-base py-1">Dalival - Villers-Cotterêts</p>
                     </div>
                     <hr className="bg-gray-600"/>
@@ -44,7 +44,7 @@ export default function Career(){
                         <div aria-label="info" className="status status-primary status-xl"></div>
                     </div>
                     <div className="timeline-end timeline-box text-center">
-                        <h1 className="text-xl font-poppins font-bold py-2">Stage Symfony</h1>
+                        <h1 className="sm:text-xl text-lg font-poppins font-bold py-2">Stage Symfony</h1>
                         <p className="text-base py-1">Olihost - Soissons</p>
                     </div>
                 </li>

@@ -11,7 +11,7 @@ export default function Home() {
       <main className="flex flex-col">
           <Header/>
           <Hero/>
-          <div className="divider px-10 scroll-mt-24" id={"parcours"}>
+          <div className="divider px-10 scroll-mt-24 max-sm:py-10" id={"parcours"}>
               <p className="text-4xl font-bold">
                   Parcours
               </p>

@@ -29,19 +29,19 @@ export default function Hero(){
                     </p>
                     <div className="pt-10 font-nunito">
                         <ul className="flex flex-wrap justify-around text-center">
-                            <li>
+                            <li className="p-2">
                                 <Link href="https://github.com/ToMaTo1206" className="badge badge-lg badge-soft badge-info text-primary hover:scale-95 transition-transform duration-300">
                                     <FontAwesomeIcon icon={faGithub} />
                                     Github
                                 </Link>
                             </li>
-                            <li>
+                            <li className="p-2">
                                 <Link href="profil/cv_Thomas_Denoyelle.pdf" target="_blank" download className="badge badge-lg badge-soft badge-info text-primary hover:scale-95 transition-transform duration-300">
                                     <FontAwesomeIcon icon={faFileAlt} />
                                     Mon CV
                                 </Link>
                             </li>
-                            <li>
+                            <li className="p-2">
                                 <Link href="https://www.google.com/maps/place/02200+Soissons" className="badge badge-lg badge-soft badge-info text-primary hover:scale-95 transition-transform duration-300">
                                     <FontAwesomeIcon icon={faLocationDot} />
                                     Soissons
