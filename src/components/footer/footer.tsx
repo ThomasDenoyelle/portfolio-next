@@ -21,7 +21,7 @@ export default function Footer() {
                     <a href="https://www.linkedin.com/in/thomas-denoyelle-2198a42b9/">
                         <FontAwesomeIcon icon={faLinkedin} size="lg" />
                     </a>
-                    <a href="https://github.com/ToMaTo1206">
+                    <a href="https://github.com/ThomasDenoyelle">
                         <FontAwesomeIcon icon={faGithub} size="lg" />
                     </a>
                 </div>

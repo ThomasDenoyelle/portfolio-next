@@ -30,7 +30,7 @@ export default function Hero(){
                     <div className="pt-10 font-nunito">
                         <ul className="flex flex-wrap justify-around text-center">
                             <li className="p-2">
-                                <Link href="https://github.com/ToMaTo1206" className="badge badge-lg badge-soft badge-info text-primary hover:scale-95 transition-transform duration-300">
+                                <Link href="https://github.com/ThomasDenoyelle" className="badge badge-lg badge-soft badge-info text-primary hover:scale-95 transition-transform duration-300">
                                     <FontAwesomeIcon icon={faGithub} />
                                     Github
                                 </Link>
